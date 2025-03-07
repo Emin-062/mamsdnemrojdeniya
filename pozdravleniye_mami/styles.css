@@ -1,0 +1,173 @@
+body{
+    background-image: url(back.jpg);
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    background-image: url(gradient.jpg);
+    color: white;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    border-style: none;
+    background-color: white;
+    width: 8vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: all 0.2s;
+
+}
+.img1{
+    height: 5vh;
+    width: 5vw;
+    transition: all 0.2s;
+}
+button:hover{
+    background-color: rgb(128, 43, 83);
+
+}
+.img1:hover{
+    filter: invert(1);
+}
+.sec-1{
+    background-image: url(flowers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 50vw;
+    height: 80vh;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+.sec-2{
+    background-image: url(cvetok.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 50vw;
+    height: 80vh;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.sec-3 {
+    background-image: url(fon.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-body {
+    position: relative;
+    z-index: 1;
+}
+.pic1, .pic2 {
+    height: auto;
+    width: 40vw;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.pic1:hover, .pic2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.text-center {
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1600px) {
+    p {
+        font-size: 2.8rem;
+    }
+}
+
+/* Для экранов шириной до 1400px (очень большие ноутбуки) */
+@media (max-width: 1400px) {
+    p {
+        font-size: 2.6rem;
+    }
+}
+
+/* Для экранов шириной до 1200px (большие ноутбуки) */
+@media (max-width: 1200px) {
+    p {
+        font-size: 2.4rem;
+    }
+}
+
+/* Для экранов шириной до 992px (планшеты) */
+@media (max-width: 992px) {
+    p {
+        font-size: 2rem;
+    }
+}
+
+/* Для экранов шириной до 900px (маленькие ноутбуки и крупные планшеты) */
+@media (max-width: 900px) {
+    p {
+        font-size: 1.8rem;
+    }
+}
+
+/* Для экранов шириной до 768px (маленькие планшеты) */
+@media (max-width: 768px) {
+    p {
+        font-size: 1.6rem;
+    }
+}
+
+/* Для экранов шириной до 640px (мобильные устройства) */
+@media (max-width: 640px) {
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+/* Для экранов шириной до 576px (очень маленькие мобильные устройства) */
+@media (max-width: 576px) {
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Для экранов шириной до 480px (минимальные мобильные устройства) */
+@media (max-width: 480px) {
+    p {
+        font-size: 1rem;
+    }
+}
+
+/* Для экранов шириной до 360px (очень маленькие экраны, например, старые телефоны) */
+@media (max-width: 360px) {
+    p {
+        font-size: 0.875rem;
+    }
+}

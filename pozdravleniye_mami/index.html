@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats mum</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Great+Vibes&family=Orbitron:wght@400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid main">
+        <div class="row nav">
+            <div class="col d-flex justify-content-around">
+                <button onclick="window.location.href='#section1'">
+                    <img src="house-heart.svg" alt="" class="img1">
+                </button>
+            </div>
+            <div class="col d-flex justify-content-around">
+                <button onclick="window.location.href='#section2'">
+                    <img src="bookmark-heart.svg" alt="" class="img1">
+                </button>
+            </div>
+            <div class="col d-flex justify-content-around">
+                <button onclick="window.location.href='#section3'">
+                    <img src="camera.svg" alt="" class="img1">
+                </button>
+            </div>
+            <div class="col d-flex justify-content-around">
+                <button onclick="toggleMusic()" onclick="window.location.href='#section4'">
+                    <img src="music-note-beamed.svg" alt="" class="img1">
+                </button>
+            </div>
+        </div>
+
+        <audio id="retro-music" loop>
+            <source src="Eyyub_Yaqubov_-_Ezizim_-_www.BiG.AZ.mp3" type="audio/mp3">
+        </audio>
+
+        <div class="row" id="section1">
+            <div class="col sec-1">
+                <div class="col d-flex justify-content-center">
+                    <p>
+                        Дорогая мама. Поздравляю тебя с днем рождения и международным женским днем. Желаю тебе самого наилучшего. Чтоб ты всегда была здорова. Чтоб ьы была всегда радостной и никогда не грустила. Желаю чтоб ты прожила долгую и наполненную яркими эмоциями жизнь. Пусть улыбка никогда тебя не покинет. Пусть Всевышний одарит тебя благом и счастьем в обоих мирах. Да будет доволен Бог тобой!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="section2">
+            <div class="col sec-2">
+                <div class="col d-flex justify-content-center">
+                    <p>
+                        Дир эбель. Спасибо тебе за все. Ты мой учитель, наставник, лучший друг. Каждая твоя улыбка приносит мне радость. И каждая слеза твоя приносит мне горе, печаль. Всегда будь открытой к новыс возмлжностям. Страрайся жить. Ты многому добилась в свои года. Горжусь тобой Джан!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card sec-3 col d-flex justify-content-center" id="section3">
+            <div class="card-body">
+                <p class="card-title text-center">Галерея</p>
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <img src="IMG_20210920_102038.jpg" alt="" class="pic1">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <img src="IMG_20220716_132916.jpg" alt="" class="pic2">
+                    </div>
+                </div>
+                <p class="text-center mt-3">Мама, оставайся всегда такой молодой и красивой!</p>
+            </div>
+        </div>
+        
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
